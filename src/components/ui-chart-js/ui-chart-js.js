@@ -212,7 +212,7 @@ function loadConfiguration(type,scope) {
 
         config.options.tooltips = {
             mode: 'x-axis',
-            position: 'cursor',
+            position: "nearest",
             bodyFontSize: 10,
             bodySpacing: 0,
             callbacks: {
